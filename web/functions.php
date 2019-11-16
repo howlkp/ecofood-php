@@ -2,7 +2,7 @@
 session_start();
 
 // connect to database
-$db = mysqli_connect('us-cdbr-iron-east-05.cleardb.net', 'beff713104cc8e', '66ed5e40', 'heroku_c6fb2a838d117b6');
+$db = mysqli_connect('us-cdbr-iron-east-05.cleardb.net', 'beff713104cc8e', '47826413', 'heroku_c6fb2a838d117b6');
 
 // variable declaration
 $username = "";

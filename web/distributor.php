@@ -6,7 +6,7 @@
 
 include('functions.php');
 
-if (!isLoggedIn() or $logged_in_user['user_type'] !== 'distributor') {
+if (!isLoggedIn()) {
 
 	$_SESSION['msg'] = "You must log in first";
 
